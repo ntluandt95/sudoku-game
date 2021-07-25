@@ -1,0 +1,13 @@
+- Set up Board 
+- Random full Sudoku Board
+    - Randomly take any number 1-9.
+    - Check if it is safe to put in the cell.(row , column and box)
+    - If safe, place it and increment to next location and go to step 1.
+    - If not safe, then without incrementing go to step 1.
+    - Once matrix is fully filled, remove k no. of elements randomly to complete game.
+- Random valid Sudoku Board to solve
+- Pick difficult level
+- Random valid Sudoku Board according to picked level
+- Handle number cell and input cell
+- Validate answer
+- Count time
