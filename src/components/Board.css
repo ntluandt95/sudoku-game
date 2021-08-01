@@ -1,0 +1,25 @@
+.cell{
+    height: 50px;
+    width: 50px;
+    outline: 2px solid Black;
+    display: inline-block;
+    background-color: White;
+    color: black;
+    /* text-align: center; */
+}
+
+.row{
+    height: 50px;
+}
+
+.board{
+    outline: 5px solid white;
+}
+
+input[type=number]{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    
+}

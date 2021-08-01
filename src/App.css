@@ -15,13 +15,15 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin-bottom: 1rem;
 }
 
 .App-link {
@@ -35,4 +37,68 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.cell{
+  height: 3rem;
+  width: 3rem;
+  
+  background-color: White;
+  color:#888;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.cell[readOnly]{
+  color:black;
+}
+
+.row{
+  height: 50px;
+}
+
+.board{
+  
+  
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.alert{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: green;
+  font-size: xx-large;
+  font-weight: bolder;
+  color:white
+}
+
+.btn{
+  padding: 10px;
+  position: relative;
+  
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: xx-large;
+  font-weight: bolder;
+  
+}
+
+.time {
+  font-size: 8rem;
+  margin-bottom: 1rem;
+  color: white;
 }
